@@ -1,8 +1,8 @@
 # NDBオープンデータの分析に役立つ関数を公開しています。
 
 ## get_population()
-estat apiを使って国勢調査の人口推計データを取得。
-総務省estatのサイトでユーザー登録が必要。https://www.e-stat.go.jp/api/
+e-Stat API機能を使って国勢調査の人口推計データを取得。
+e-Statサイトでユーザー登録が必要。https://www.e-stat.go.jp/api/
 
 ・api_key　=　estatのapiキー
 
