@@ -10,4 +10,13 @@ estat apiを使って国勢調査の人口推計データを取得。
 ・time　=　取得したい人口推計の年
 
 ## scr_cal()
-Standardized Claim Ration（標準化レセプト出現比）を計算。
+Standardized Claim Ratio（標準化レセプト出現比）を計算。
+
+・sinryou_agesex　　　　　3col：age, sex, sinryou
+
+・sinryou_pref　    2col：sinryou, prefname
+
+・population_agesex　　　　　　　3col：age, sex, population
+
+・population_pref　　　　　　　4col：prefname, age, sex, population
+
