@@ -1,0 +1,88 @@
+* using log directory ‘/Users/mskfjsw/Library/CloudStorage/OneDrive-国立研究開発法人　国立長寿医療研究センター/R/Packages/ndbtools.Rcheck’
+* using R version 4.3.1 (2023-06-16)
+* using platform: aarch64-apple-darwin20 (64-bit)
+* R was compiled by
+    Apple clang version 14.0.0 (clang-1400.0.29.202)
+    GNU Fortran (GCC) 12.2.0
+* running under: macOS Sonoma 14.1.2
+* using session charset: UTF-8
+* using options ‘--no-manual --as-cran’
+* checking for file ‘ndbtools/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘ndbtools’ version ‘0.1.0’
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking serialization versions ... OK
+* checking whether package ‘ndbtools’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking for future file timestamps ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  What license is it under?
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+scr_cal: no visible global function definition for ‘%>%’
+scr_cal: no visible global function definition for ‘full_join’
+scr_cal: no visible global function definition for ‘mutate’
+scr_cal: no visible binding for global variable ‘sinryou’
+scr_cal: no visible binding for global variable ‘population’
+scr_cal: no visible global function definition for ‘select’
+scr_cal: no visible binding for global variable ‘age’
+scr_cal: no visible binding for global variable ‘sex’
+scr_cal: no visible binding for global variable ‘standard_rece’
+scr_cal: no visible global function definition for ‘ungroup’
+scr_cal: no visible global function definition for ‘left_join’
+scr_cal: no visible binding for global variable ‘prefname’
+scr_cal: no visible binding for global variable ‘expect_rece’
+scr_cal: no visible global function definition for ‘group_by’
+scr_cal: no visible global function definition for ‘summarise’
+scr_cal: no visible global function definition for ‘across’
+scr_cal: no visible global function definition for ‘everything’
+scr_cal: no visible global function definition for ‘str_trim’
+Undefined global functions or variables:
+  %>% across age everything expect_rece full_join group_by left_join
+  mutate population prefname select sex sinryou standard_rece str_trim
+  summarise ungroup
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd line widths ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  ‘scr_cal’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for non-standard things in the check directory ... OK
+* checking for detritus in the temp directory ... OK
+* DONE
+Status: 2 WARNINGs, 1 NOTE
