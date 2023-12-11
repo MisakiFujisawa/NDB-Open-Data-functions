@@ -14,7 +14,7 @@ Standardized Claim Ratio（標準化レセプト出現比）を計算。
 
 ・sinryou_agesex　　　　　3col：age, sex, sinryou
 
-・sinryou_pref　    2col：sinryou, prefname
+・sinryou_pref　　　　　2col：sinryou, prefname
 
 ・population_agesex　　　　　　　3col：age, sex, population
 
