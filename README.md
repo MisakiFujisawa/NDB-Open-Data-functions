@@ -1,12 +1,14 @@
-# NDBオープンデータ用関数
+# Functions for NDB open data
 
 ## get_population()
 
-e-Stat API機能を使って国勢調査の人口推計データを取得。 e-Statサイトでユーザー登録が必要。<https://www.e-stat.go.jp/api/>
+This function uses the e-Stat API to obtain population estimate data from the Census. User registration is required at the e-Stat site.
 
-・api_key　=　estatのapiキー
+<https://www.e-stat.go.jp/api/>
 
-・time　=　取得したい人口推計の年
+・api_key　=　your e-stat api key
+
+・time　=　Population Estimation Data Year
 
 ## scr_ndbop()
 
@@ -22,9 +24,11 @@ Standardized Claim Ratio（標準化レセプト出現比）を計算。
 
 ### reshape_ndbop()
 
-Rに読み込んだndbオープンデータをデータフレームに変換
+Converting ndb open data to data frames
 
-# NDB前処理用関数
+・
+
+# Functions for NDB
 
 ## 作成予定の関数
 
