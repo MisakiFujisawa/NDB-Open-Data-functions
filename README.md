@@ -1,29 +1,20 @@
 # Functions for NDB open data
 
-## get_population()
-
-This function uses the e-Stat API to obtain population estimate data from the Census. User registration is required at the e-Stat site.
-
-<https://www.e-stat.go.jp/api/>
-
-・api_key　=　your e-stat api key
-
-・time　=　Population Estimation Data Year
-
-## scr_ndbop()
-
-Standardized Claim Ratio（標準化レセプト出現比）を計算。
-
-・sinryou_agesex　　　　性年齢別 NDB オープンデータ（3col：age, sex, sinryou）
-
-・sinryou_pref　　　 　　都道府県別 NDBオープンデータ（2col：sinryou, prefname）
-
-・population_agesex　　日本全体の人口推計データ（3col：age, sex, population）
-
-・population_pref　　　都道府県の人口推計データ（4col：prefname, age, sex, population）
-
 ### reshape_ndbop()
 
-Converting ndb open data to data frames
+ダウンロードしたNDBオープンデータをデータフレームに処理する関数です。
 
-・data　　　　NDB Open Dataのファイルパス
+都道府県・性年齢別のデータに対して適用可能です。
+
+使用する際はR/reshape_ndbop.RのコードをRスクリプトにコピーしてsource()で読み込んでください。
+
+＊2次医療圏などの形式には未対応です
+
+```{r}
+library("tidyverse")
+library("readxl")
+source("function/reshape_ndbop.R")
+
+dt <- read_excel("ファイルパス")
+ndbop <- reshape_ndbop(dt)
+```
